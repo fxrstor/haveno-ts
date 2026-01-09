@@ -11,7 +11,7 @@ RUN set -ex && \
 
 USER haveno
 
-RUN set -ex && git clone https://github.com/haveno-dex/haveno.git /home/haveno/haveno
+RUN set -ex && git clone https://github.com/fxrstor/haveno.git /home/haveno/haveno
 
 WORKDIR /home/haveno/haveno
 
